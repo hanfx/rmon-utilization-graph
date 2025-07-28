@@ -106,7 +106,6 @@ link_text = ax.text(
     va='center',
     transform=ax.transAxes
 )
-
 # Github link
 def on_click(event):
     if link_text.contains(event)[0]:
