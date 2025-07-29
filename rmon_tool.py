@@ -9,10 +9,14 @@ import webbrowser
 root = tk.Tk()
 root.withdraw()  # Sembunyikan jendela utama Tkinter
 
+print("Memulai script...")
 file_path = filedialog.askopenfilename(
     title = "Pilih file CSV",
     filetypes=[("CSV/RMON files", "*.csv;*.rmon"), ("All files", "*.*")]
 )
+
+print("File path:", file_path)
+
 # file_path = "15min-ETH-s0p66-20250727-KPA030_MT_STP_1K.csv"
 
 data = pd.read_csv(file_path, header = 1)
@@ -52,9 +56,15 @@ plt.plot(data['Time Stamp'], data['TX Mbps'], label='TX Mbps', color='#C5001A', 
 
 # Menambahkan judul grafik
 file_base = os.path.splitext(os.path.basename(file_path))[0]
-time_part = file_base.split('-')[3]
-title_part = file_base.split('-')[4]
+file_name_part = file_base.split('-')
+
+if len(file_name_part)  >= 5:
+    title_part = file_name_part[4]
+else:
+    title_part = file_base
 plt.title(f"Utilisasi {title_part}", fontsize= 18)
+
+time_part = file_base.split('-')[3]
 plt.xlabel(f'Time {time_part}', fontsize=14)
 plt.ylabel('Utils (Mbps)', fontsize=14)
 # Menambahkan legenda
