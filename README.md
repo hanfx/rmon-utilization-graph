@@ -23,7 +23,7 @@
     <ul>
       <li><a href="https://www.python.org/downloads/" target="_blank">python</a></li>
       <li><a href="https://pip.pypa.io/en/stable/installation" target="_blank">pip</a></li>
-      <li><a href="https://pypi.org/project/matplotlib/](https://matplotlib.org/stable/install/index.html" target="blank">matplotlib</a></li>
+      <li><a href="https://matplotlib.org/stable/install/index.html" target="blank">matplotlib</a></li>
       <li><a href="https://pandas.pydata.org/docs/getting_started/install.html" target="_blank">pandas</a></li>
       <li><a href="https://docs.python.org/3/library/tkinter.html" target="_blank">tkinter (for .exe build)</a></li>
     </ul>
