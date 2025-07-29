@@ -21,9 +21,9 @@
 
   <h4>🔧 Depedencies:</h4>
     <ul>
-      <li>matplotlib</li>
-      <li>pandas</li>
-      <li>tkinter (for .exe build)</li>
+      <li><a href="https://pypi.org/project/matplotlib/](https://matplotlib.org/stable/install/index.html">matplotlib</a></li>
+      <li><a href="https://pandas.pydata.org/docs/getting_started/install.html">pandas</a></li>
+      <li><a href="https://docs.python.org/3/library/tkinter.html">tkinter (for .exe build)</a></li>
     </ul>
 
   <h4>📈📉 Example:</h4>
