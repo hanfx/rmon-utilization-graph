@@ -1,3 +1,7 @@
 @echo off
-python "rmon_tool.py"
-pause
+:ulang
+python rmon_tool.py
+
+echo.
+set /p ulangi=Jalankan lagi? [Y/N]:
+if /I "%ulangi%"=="Y" goto ulang
