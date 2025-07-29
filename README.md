@@ -9,7 +9,7 @@
 <ul><b>Release 2</b></ul>
   Beberapa improvement karena user tidak perlu menginstall python pada PC mereka
 
-  1. Menjalankan generate RMON graph via file .exe didalam folder "gist" (lumayan besar sekitar 60Mb), bisa dijalankan langsung via dekstop dengan "Run As Administrator"
+  1. Menjalankan generate RMON graph via file .exe didalam folder "gist" atau jalankan run.bat (harus install python) karena .exe masih sering bug (lumayan besar sekitar 60Mb), bisa dijalankan langsung via dekstop dengan "Run As Administrator"
   2. Melakukan read data, cleaning data kolom yang diperlukan (case: tidak semua kolom dipakai), penambahan kolom, konversi tipe data kolom object ke float64, penulisan rumus (konversi ke Mbps) <b>(x * 8) / (60 * 15) / 1000000</b>
   3. Pembuatan plot/graph menggunakan library Matplotlib
   4. Sampel graph ![image](https://github.com/user-attachments/assets/08c7b73c-ef76-4400-8b3b-6d8dc72c4d71)
