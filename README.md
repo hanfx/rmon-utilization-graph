@@ -21,11 +21,11 @@
 
   <h4>🔧 Depedencies:</h4>
     <ul>
-      <li><a href="https://pypi.org/project/matplotlib/](https://matplotlib.org/stable/install/index.html](https://pip.pypa.io/en/stable/installation/](https://www.python.org/downloads/">python</a></li>
-      <li><a href="https://pypi.org/project/matplotlib/](https://matplotlib.org/stable/install/index.html](https://pip.pypa.io/en/stable/installation/">pip</a></li>
-      <li><a href="https://pypi.org/project/matplotlib/](https://matplotlib.org/stable/install/index.html">matplotlib</a></li>
-      <li><a href="https://pandas.pydata.org/docs/getting_started/install.html">pandas</a></li>
-      <li><a href="https://docs.python.org/3/library/tkinter.html">tkinter (for .exe build)</a></li>
+      <li><a href="https://www.python.org/downloads/" target="_blank">python</a></li>
+      <li><a href="https://pip.pypa.io/en/stable/installation" target="_blank">pip</a></li>
+      <li><a href="https://pypi.org/project/matplotlib/](https://matplotlib.org/stable/install/index.html" target="blank">matplotlib</a></li>
+      <li><a href="https://pandas.pydata.org/docs/getting_started/install.html" target="_blank">pandas</a></li>
+      <li><a href="https://docs.python.org/3/library/tkinter.html" target="_blank">tkinter (for .exe build)</a></li>
     </ul>
 
   <br></br>
