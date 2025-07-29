@@ -21,13 +21,15 @@
 
   <h4>🔧 Depedencies:</h4>
     <ul>
+      <li><a href="https://pypi.org/project/matplotlib/](https://matplotlib.org/stable/install/index.html](https://pip.pypa.io/en/stable/installation/](https://www.python.org/downloads/">python</a></li>
+      <li><a href="https://pypi.org/project/matplotlib/](https://matplotlib.org/stable/install/index.html](https://pip.pypa.io/en/stable/installation/">pip</a></li>
       <li><a href="https://pypi.org/project/matplotlib/](https://matplotlib.org/stable/install/index.html">matplotlib</a></li>
       <li><a href="https://pandas.pydata.org/docs/getting_started/install.html">pandas</a></li>
       <li><a href="https://docs.python.org/3/library/tkinter.html">tkinter (for .exe build)</a></li>
     </ul>
 
-  <h4>📈📉 Example:</h4>
   <br></br>
+  <h4>📈📉 Example:</h4>
   <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/0a2bf8a0-c1aa-4a51-8702-1796ba7efd9e" />
   <br></br>
 
